@@ -1,0 +1,236 @@
+.contenido
+{
+	background-color:#F2F2F2;
+}
+.encabezado
+{
+	background-color:#48525e;
+	font-family: open zans;
+}
+.box
+{
+	border: 1px solid #666666;
+	vertical-align: baseline;
+}
+.container
+{
+	width: 100%;
+}
+.blanco
+{
+	background: #F2F2F2;
+}
+.navbar
+{
+	margin-bottom: -3px;
+}
+.titulo
+{
+	color: #fff;
+
+}
+.logo
+{
+	padding: 11px;
+}
+.ing
+{
+	padding: 30px;
+}
+.item
+{
+	margin: 2px;
+	padding: 1px;
+	list-style: none;
+}
+IMG.imgcenter{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      border:none;
+      } 
+.superior
+{
+	position:relative;
+
+}
+.inferior
+{
+	position:absolute;
+	top: 0px;
+	right: 0%;
+}
+li.dropdown:hover ul.dropdown-menu.submenu
+{ 
+    display: block; 
+    margin-left: 70px; 
+    margin-top: -26px;      
+} 
+.poop
+{
+	padding-left: 500px;
+}
+.color
+{
+	background-color:#88C543;
+}
+.letramenu
+{
+	color: #000;
+}
+
+.inferior img
+{
+	width: 50px;
+	height:50px;
+	border-radius: 0px 0px 0px 0px;
+}
+.infoAnimal
+{
+	height: 100px;
+	overflow: hidden;
+	margin-top: -8px;
+}
+.foto
+{
+	padding: 10px;
+}
+.boton1
+{
+	background-size: 6em;
+  	height: 5px;
+  	width: 5px;
+  	display: inline-table;
+  	margin: 20px auto;
+  	border-radius: 100%;
+  	cursor: pointer;
+  	box-shadow: inset 0 10px 15px rgba(255,255,255,.35), inset 0 -10px 15px rgba(0,0,0,.05), inset 10px 0 15px rgba(0,0,0,.05), inset -10px 0 15px rgba(0,0,0,.05), 0 5px 20px rgba(0,0,0,.1);
+}
+.boton1:active 
+{
+  	box-shadow: inset 0 5px 30px rgba(0,0,0,.2);
+  	background-size: 5.9em;
+}
+.superior1
+{
+	margin: 10px;
+	padding: 15px;
+}
+.margenes
+{
+	padding-top: 2px;
+}
+.tamanioimagen
+{
+	height: 180px;
+	width: 278px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	margin-left: 18px;
+}
+.tamanioimagen h3
+{
+	margin-top: -10px;
+}
+.bordeC
+{
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.subtitulo
+{
+	margin: 5px;
+	padding-bottom: 10px;
+	padding-top: 12px;
+	padding-left: 10px;
+}
+.piepagina
+{
+	background-color:#323232;
+	border-radius: 6px 6px 0px 0px;
+	width: 100%;
+}
+.informacion
+{
+	color: #fff;
+	font:  open zans;
+}
+@media all and (max-width: 720px) {
+	.titulo 
+	{
+		font-size: 40px;
+	}
+	.letranombre
+	{
+		font-size: 15px
+	}
+	.letrafundacion
+	{
+		font-size: 9px;
+	}
+	.subtitulo
+	{
+		font-size: 25px;
+	}
+	.inferior1
+	{
+		
+	}
+	.derechatext{
+		position: text-right;
+	}
+
+
+}
+
+@media all and (min-width: 720px) {
+	.titulo {
+		font-size: 60px;
+	}
+	.letranombre
+	{
+		font-size: 23px
+	}
+	.letrafundacion
+	{
+		font-size: 13px;
+	}
+	.subtitulo
+	{
+		font-size: 40px;
+	}
+}
+@media all and (max-width: 410px) {
+	.superior2
+	{
+		background-image: url(images/piedepagina2.jpg);
+	}
+@media all and (max-width: 850px) {
+	.imgcenter
+	{
+		margin: 10px;
+	}
+@media all and (max-width: 350px) {
+	.tamanioimagen
+	{
+	height: 180px;
+	width: 278px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	margin-left: 6px;
+	}
+	.subtitulo {
+	font-size: 22px;
+	}
+	.boton1{
+	margin: 7px auto;
+	}
+}
+
