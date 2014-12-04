@@ -28,7 +28,7 @@
 
 
 	$app->post("/ayf",function() use($app,$config){
-		$sql='SELECT * from animales a ';
+		$sql='SELECT * from mascota a ';
 		$edad=$app->request->params('edad');
 		$params=array();
 		if(!empty($edad)){
@@ -38,7 +38,19 @@
 			else $sql.='WHERE a.edad>3';
 			//$params[':edad']=$edad;
 		}
+
+
+	//	$app->post("/ayf",function() use($app,$config){
+	//	$sql='SELECT * from animales a ';
+		$especie=$app->request->params('especie');
+		$params=array();
+		if(!empty($especie)){
+			
+			$sql.='WHERE a.especie =:especie';
+			$params[':especie']=$especie;
+		}
 		
+
 		$datos = array();
 		$gbd = new PDO('mysql:host='.$config['dbhost'].';dbname='.$config['dbname'], $config['dbuser'], $config['dbpass']);
 		$res = $gbd->prepare($sql);
@@ -51,21 +63,6 @@
 		header('Content-type: application/json');
 		echo json_encode($datos);
 	});
-
-
-	/*$app->post("/macho",function() use($app,$config,$macho){
-	//	$datos = array();
-		$gbd = new PDO('mysql:host='.$config['dbhost'].';dbname='.$config['dbname'], $config['dbuser'], $config['dbpass']);
-		$res = $gbd->query('SELECT * from animales m where  (m.generonombre =:macho )');
-
-		foreach($res as $fila) {
-			$datos[]=$fila;
-		}
-
-		header('Content-type: application/json');
-		echo json_encode($datos);
-	});*/
-
 
 
 	$app->run();

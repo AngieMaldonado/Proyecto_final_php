@@ -24,22 +24,22 @@
                           <li class="dropdown">
                               <a href="" class="dropdown-toggle" data-toggle="dropdown">Especie <span class="caret"></span></a>
                               <ul class="dropdown-menu" role="menu">
-                                  <li ng-click="filtroGatos(gato)"><a href="">Gatos</a></li>
-                                  <li ng-click="filtroPerros(perro)"><a href="">Perros</a></li>
+                                  <li ng-click="filtroEspecie('gato')"><a href="">Gatos</a></li>
+                                  <li ng-click="filtroEspecie('perro')"><a href="">Perros</a></li>
                               </ul>
                           </li>
                           <li class="dropdown">
                               <a href="" class="dropdown-toggle" data-toggle="dropdown">Genero <span class="caret"></span></a>
                               <ul class="dropdown-menu" role="menu">
-                                  <li ng-click="filtroMacho('macho')"><a href="">Macho</a></li>
-                                  <li ng-click="filtroHembra(hembra)"><a href="">Hembra</a></li>
+                                  <li ng-click="filtroGenero('macho')"><a href="">Macho</a></li>
+                                  <li ng-click="filtroGenero('hembra')"><a href="">Hembra</a></li>
                               </ul>
                           </li>
                           <li class="dropdown">
                               <a href="" class="dropdown-toggle" data-toggle="dropdown">Ubicación <span class="caret"></span></a>
                               <ul class="dropdown-menu" role="menu">
-                                  <li ng-click="filtroCiudad(ciudad)"><a href="">Ciudad</a></li>
-                                  <li ng-click="filtroDepartamento(departamento)"><a href="">Departamento</a></li>
+                                  <li ng-click="filtroUbicacion('ciudad')"><a href="">Ciudad</a></li>
+                                  <li ng-click="filtroUbicacion('departamento')"><a href="">Departamento</a></li>
                               </ul>
                           </li>
                           <li class="dropdown">

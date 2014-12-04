@@ -27,7 +27,7 @@ app.config(function($routeProvider){
 	$scope.cargarDatos=function(params){
 
 		console.log(params);
-		$http({url:'/Proyecto-php/ayf', params: params, method:'POST', responseType:'json'}).
+		$http({url:'/Proyecto_final_php/ayf', params: params, method:'POST', responseType:'json'}).
 		  success(function(data, status, headers, config) {
 		  	//$scope.$apply(function(){
 		  		$scope.items=data;
