@@ -39,7 +39,8 @@ app.config(function($routeProvider){
 
 	};
 
-		$scope.paginar=function(n){
+
+	$scope.paginar=function(n){
 
 			console.log("siiiiiiiii");
 
@@ -56,17 +57,29 @@ app.config(function($routeProvider){
 	};
 
 
-
-	$scope.showItem= function (item) 
+	/*$scope.showItem= function (id) 
 	 {
-	 	$scope.animalActual=item;
+	 	//$scope.animalActual=item;
 	 	
-		console.log(item);
+		//console.log(item);
 
-		$location.path('/descripcion');
+		//$location.path('/descripcion');
 
 		//console.log("infoAnimal");
-	};
+
+		$scope.cargarDatos({id:id});
+
+		console.log(params);
+		$http({url:'/Proyecto_final_php/descripcion/des', params: params, method:'POST', responseType:'json'}).
+		  success(function(data, status, headers, config) {
+		  	//$scope.$apply(function(){
+		  		$scope.items=data;
+		  	//});
+		  }).
+		  error(function(data, status, headers, config) {
+		  		
+		  });
+	};*/
 
 
 

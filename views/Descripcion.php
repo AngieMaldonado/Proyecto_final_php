@@ -1,3 +1,5 @@
+<?php require("menu.php"); ?>
+
 <div class="container" >
 	<div class="row margensuperior" >
 	<!--imagenes de la mascota-->

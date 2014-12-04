@@ -1,3 +1,6 @@
+
+<?php require("menu.php"); ?>
+<div>
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -38,3 +41,4 @@
             </div>
         </div>
     </section>
+</div>    

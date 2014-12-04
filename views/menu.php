@@ -31,15 +31,16 @@
                           <li class="dropdown">
                               <a href="" class="dropdown-toggle" data-toggle="dropdown">Genero <span class="caret"></span></a>
                               <ul class="dropdown-menu" role="menu">
-                                  <li ng-click="filtroGenero('macho')"><a href="">Macho</a></li>
+                                  <li ng-click="filtroGenero('Macho')"><a href="">Macho</a></li>
                                   <li ng-click="filtroGenero('hembra')"><a href="">Hembra</a></li>
                               </ul>
                           </li>
                           <li class="dropdown">
                               <a href="" class="dropdown-toggle" data-toggle="dropdown">Ubicación <span class="caret"></span></a>
                               <ul class="dropdown-menu" role="menu">
-                                  <li ng-click="filtroUbicacion('ciudad')"><a href="">Ciudad</a></li>
-                                  <li ng-click="filtroUbicacion('departamento')"><a href="">Departamento</a></li>
+                                  <li ng-click="filtroUbicacion('armenia')"><a href="">Armenia</a></li>
+                                  <li ng-click="filtroUbicacion('pereira')"><a href="">Pereira</a></li>
+                                  <li ng-click="filtroUbicacion('manizales')"><a href="">Manizales</a></li>
                               </ul>
                           </li>
                           <li class="dropdown">
